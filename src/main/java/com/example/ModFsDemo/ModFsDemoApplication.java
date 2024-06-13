@@ -30,7 +30,7 @@ public class ModFsDemoApplication {
 	@GetMapping("/divide/{a}/{b}")
 	public String sbtract(@PathVariable("a") int a, @PathVariable("b") int b) {
 		return String.format("Result = %s!", a / b);
-	}
+	} 
 
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name, Model model) {
