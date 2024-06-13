@@ -50,4 +50,4 @@ jobs:
         context-github: ${{ toJSON(github) }}
         # Display Name of the Job
         job-name: 'ServiceNow DevOps Change'
-        change-request: '{"attributes":{"requested_by":{"name": "Aravind Vadde"},"assignment_group":{"name": "Change Management"},"priority": "2","comments": "This is a sample pipeline script to be added in your change step","work_notes": "Update this to work_notes"}}'
+        change-request: '{"attributes":{"requested_by":{"name": "Aravind Vadde"},"assignment_group":{"name": "Analysts"},"priority": "2","comments": "This is a sample pipeline script to be added in your change step","work_notes": "Update this to work_notes"}}'
