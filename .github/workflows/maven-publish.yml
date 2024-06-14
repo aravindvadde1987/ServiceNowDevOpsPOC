@@ -50,7 +50,7 @@ jobs:
         context-github: ${{ toJSON(github) }}
         # Display Name of the Job
         job-name: 'ServiceNow DevOps Change'
-        change-request: '{"attributes":{"stageName": "Development", "buildNumber": "12345", "action": "Build", "workflow": "Main CI Pipeline", "repository": "https://github.com/example/repo", "callbackURL": "https://example.com/callback", "orchestrationTaskURL": "https://example.com/orchestrationTask"}}'
+        change-request: '{"attributes":{}}'
         interval: '10'
         timeout: '10'
         changeCreationTimeOut: '10'
