@@ -50,3 +50,4 @@ jobs:
         context-github: ${{ toJSON(github) }}
         # Display Name of the Job
         job-name: 'ServiceNow DevOps Change'
+        change-request: '{"short_description":"Automated Software Deployment","description":"Automated Software Deployment.","category":"DevOps","model":"normal","type":"Normal","test_plan":"Testing if the software was successfully deployed"}'
