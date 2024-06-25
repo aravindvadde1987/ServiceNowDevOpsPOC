@@ -36,5 +36,6 @@ public class ModFsDemoApplication {
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name, Model model) {
 		model.addAttribute("name", name);
 		return "Hello";
-	}	
+	}
+	
 }
