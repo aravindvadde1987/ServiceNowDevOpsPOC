@@ -50,4 +50,4 @@ jobs:
         context-github: ${{ toJSON(github) }}
         # Display Name of the Job
         job-name: 'ServiceNow DevOps Change'
-        change-request: '{"attributes":{}}'
+        change-request: '{"attributes":{"short_description": "Software Deployment",  "description": "Software Deployment.","assignment_group": "a8e17a3947e2b11039fa6c6b416d431f"}}'
