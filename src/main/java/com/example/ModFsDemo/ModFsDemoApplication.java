@@ -37,5 +37,4 @@ public class ModFsDemoApplication {
 		model.addAttribute("name", name);
 		return "Hello";
 	}
-	
 }
