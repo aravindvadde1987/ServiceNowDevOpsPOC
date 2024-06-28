@@ -50,4 +50,4 @@ jobs:
         context-github: ${{ toJSON(github) }}
         # Display Name of the Job
         job-name: 'ServiceNow DevOps Change'
-        change-request: '{"attributes":{"short_description":"Software Deployment","description":"Software Deployment.","assignment_group":"73764f40533230109f88ddeeff7b129d","implementation_plan":"Software update is tested and results can be found in Test Summaries Tab.","backout_plan":"When software fails in production, the previous software release will be re-deployed.","test_plan":"Testing if the software was successfully deployed or not"}}'
+        change-request: '{"attributes":{"short_description":"Software Deployment","description":"Software Deployment.","assignment_group":"11b0c48847dc0694d1ed92e2846d434b","implementation_plan":"Software update is tested and results can be found in Test Summaries Tab.","backout_plan":"When software fails in production, the previous software release will be re-deployed.","test_plan":"Testing if the software was successfully deployed or not"}}'
