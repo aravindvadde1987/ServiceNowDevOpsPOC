@@ -17,5 +17,5 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
-    testResultsFiles: '**/target/site/jacoco/*.xml'
+    testResultsFiles: '**/target/site/jacoco/*.html'
     goals: 'package'
