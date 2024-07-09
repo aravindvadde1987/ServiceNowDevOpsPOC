@@ -38,7 +38,3 @@ steps:
     goals: 'package'
     sonarQubeRunAnalysis: true
     sqMavenPluginVersionChoice: 'pom'
-    
-- task: ServiceNow-DevOps-Server-Change-Acceleration@1
-  inputs:
-    connectedServiceName: 'servicenow'
