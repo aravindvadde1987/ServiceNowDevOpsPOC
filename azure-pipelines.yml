@@ -9,7 +9,23 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+
+
 steps:
+- checkout: self
+  fetchDepth: 0
+
+- task: SonarCloudPrepare@2
+  inputs:
+    SonarCloud: 'sonar'
+    organization: 'arvadde'
+    scannerMode: 'Other'
+    extraProperties: |
+      # Additional properties that will be passed to the scanner,
+      # Put one key=value per line, example:
+      # sonar.exclusions=**/*.bin
+      sonar.projectKey=arvadde_snowdevops
+      sonar.projectName=snowdevops
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
