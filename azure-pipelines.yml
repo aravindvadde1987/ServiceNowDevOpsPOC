@@ -43,10 +43,12 @@ stages:
               goals: 'test'
 
   - stage: changeCreation
-    displayName: 'Test'
+    displayName: 'Change creation'
+    pool:
+      name: Server
     jobs:
-      - job: TestJob
-        displayName: 'Run Tests and Publish Results'
+      - job: changecreation
+        displayName: 'Change creation'
         steps:
           - task: ServiceNow-DevOps-Server-Change-Acceleration@1
             inputs:
