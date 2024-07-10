@@ -63,7 +63,7 @@ stages:
                       },
                 "short_description":"Software Deployment for Servicenow Devops POC",
                 "description":"Software Deployment.",
-                "assignment_group":"DevOps Report",
+                "assignment_group":"3D6fec7fdd5b40011074d09113a281c771",
                 "implementation_plan":"Software update is tested and results can be found in Test Summaries Tab.",
                 "backout_plan":"When software fails in production, the previous software release will be re-deployed.","test_plan":"Testing if the software was successfully deployed or not",
                 "justification":"justification",
