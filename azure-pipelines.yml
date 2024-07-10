@@ -42,6 +42,16 @@ stages:
               testResultsFiles: '**/surefire-reports/TEST-*.xml'
               goals: 'test'
 
+  - stage: changeCreation
+    displayName: 'Test'
+    jobs:
+      - job: TestJob
+        displayName: 'Run Tests and Publish Results'
+        steps:
+          - task: ServiceNow-DevOps-Server-Change-Acceleration@1
+            inputs:
+              connectedServiceName: 'operateedgedev-snowdevops-ServiceNow DevOps Service Connection'
+  
   - stage: SonarPrepAndAnalysis
     displayName: 'SonarQube Preparation and Analysis'
     jobs:
