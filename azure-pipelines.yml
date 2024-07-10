@@ -61,13 +61,21 @@ stages:
                       "requested_by": {
                         "name": "Aravind Vadde"
                       },
-                "short_description":"Software Deployment for Servicenow Devops POC",
-                "description":"Software Deployment.",
-                "implementation_plan":"Software update is tested and results can be found in Test Summaries Tab.",
-                "backout_plan":"When software fails in production, the previous software release will be re-deployed.","test_plan":"Testing if the software was successfully deployed or not",
-                "justification":"justification",
+                      "short_description":"Software Deployment for Servicenow Devops POC",
+                      "description":"Software Deployment.",
+                      "implementation_plan":"Software update is tested and results can be found in Test Summaries Tab.",
+                      "backout_plan":"When software fails in production, the previous software release will be re-deployed.","test_plan":"Testing if the software was successfully deployed or not",
+                      "justification":"Important feature rollout",
+                      "service_offering": "65d429bc87580ad0ecf287bd0ebb35f8",
+                      "cmdb_ci": "64af7136c36631101ad0b0b78640ddc6",
+                      "assignment_group": "6fec7fdd5b40011074d09113a281c771",
+                      "business_service":"38c4e5bc87580ad0ecf287bd0ebb352a",
+                      "assigned_to":"a28d9732876e0254ecf287bd0ebb35a7",
                       "start_date": "2025-01-05 08:00:00",
-                      "end_date": "2025-01-08 08:00:00"
+                      "end_date": "2025-01-08 08:00:00",
+                      "impact": "3",
+                      "priority": "4"
+
                     }
                   }
   
