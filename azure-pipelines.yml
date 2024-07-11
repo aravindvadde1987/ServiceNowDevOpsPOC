@@ -55,8 +55,6 @@ stages:
               connectedServiceName: 'operateedgedev-snowdevops-ServiceNow DevOps Service Connection'
               changeRequestDetails: |
                 {
-                    "setCloseCode" : true,
-                    "autoCloseChange" : true,
                     "attributes": {
                       "requested_by": {
                         "name": "Aravind Vadde"
