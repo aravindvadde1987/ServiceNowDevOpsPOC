@@ -71,7 +71,8 @@ stages:
                       "assigned_to":"a28d9732876e0254ecf287bd0ebb35a7",
                       "start_date": "2025-01-05 08:00:00",
                       "end_date": "2025-01-08 08:00:00",
-                      "priority": "4"
+                      "priority": "4",
+                      "domain": "global"
 
                     }
                   }
