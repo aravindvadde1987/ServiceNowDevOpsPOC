@@ -82,10 +82,10 @@ stages:
                   }
   
   - stage: SonarPrepAndAnalysis
-    displayName: 'SonarQube Preparation and Analysis'
+    displayName: 'Deployment'
     jobs:
       - job: SonarJob
-        displayName: 'Prepare and Analyze with SonarQube'
+        displayName: 'Deployment simulation'
         steps:
           - task: SonarCloudPrepare@2
             displayName: 'Prepare SonarCloud analysis'
