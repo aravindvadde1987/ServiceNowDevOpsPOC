@@ -1,6 +1,4 @@
-pr:
-- main
-- releases/*
+pr: none
 
 pool:
   vmImage: ubuntu-latest
