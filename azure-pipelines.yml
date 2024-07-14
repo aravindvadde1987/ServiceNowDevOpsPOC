@@ -2,11 +2,11 @@
 trigger:
   branches:
     include:
-      - release
+      - main
 pr:
  branches:
    include:
-     - release
+     - main
 
 pool:
   vmImage: ubuntu-latest
