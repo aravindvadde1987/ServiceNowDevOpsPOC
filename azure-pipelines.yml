@@ -3,10 +3,14 @@ trigger:
   branches:
     include:
       - main
+# specific branch
 pr:
- branches:
-   include:
-     - main
+  branches:
+    include:
+    - main
+    - releases/*
+    exclude:
+    - releases/old*
 
 pool:
   vmImage: ubuntu-latest
