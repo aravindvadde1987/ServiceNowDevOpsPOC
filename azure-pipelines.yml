@@ -4,7 +4,11 @@ trigger:
     include:
       - main
 
-pr: none
+pr:
+  autoCancel: true
+  branches:
+    include:
+      - main
 
 pool:
   vmImage: ubuntu-latest
