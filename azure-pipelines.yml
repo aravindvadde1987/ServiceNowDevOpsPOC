@@ -1,10 +1,6 @@
 pr:
-  branches:
-    include:
-    - main
-    - releases/*
-    exclude:
-    - releases/old*
+- main
+- releases/*
 
 pool:
   vmImage: ubuntu-latest
